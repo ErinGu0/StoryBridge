@@ -33,25 +33,23 @@ This project is my way of honoring the people I've met through volunteering—th
 ## Tech Stack
 
 **Frontend:**
-- React, Next.js, or your framework here
-- Tailwind CSS or your styling solution
+- React
+- Tailwind CSS 
 
 **Backend:**
-- Node.js, Express, or your backend here
-- MongoDB, PostgreSQL, or Firebase
+- IndexDB
 
 **APIs & Services:**
-- Google Gemini API for AI-powered prompts
-- Image generation API for illustrations
+- Google Gemini API for AI-powered prompts and Image Generation
 
 **Tools:**
-- Git, GitHub, Vercel, or your deployment platform
+- Git, GitHub, Vercel
 
 ## Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
-- npm or yarn
+- npm 
 - Gemini API key ([Get one here](https://ai.google.dev/))
 
 ### Installation
@@ -95,13 +93,6 @@ Open your browser and navigate to http://localhost:3000
 - Integrating and optimizing AI APIs for real-time user interactions
 - Balancing technical complexity with simplicity for non-technical users
 - Working with healthcare stakeholders and incorporating feedback iteratively
-
-## Future Enhancements
-
-- [ ] Multi-language support for diverse communities
-- [ ] Voice recording with speech-to-text transcription
-- [ ] Family collaboration features for shared storytelling
-- [ ] Mobile app development for iOS and Android
 
 ## Contact
 
