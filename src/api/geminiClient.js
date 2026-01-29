@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { imageStorage } from './imageStorage';
 
-const GEMINI_API_KEY = 'AIzaSyDRllKQL7aEom7J3j4Fv3dHRX81eHSng7Q';
+const GEMINI_API_KEY = 'AIzaSyAzJuJOcXb_wFiS-1ET9SUlva0Rptz1lWo';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 export const geminiClient = {
@@ -13,13 +13,13 @@ export const geminiClient = {
             text: prompt
           }]
         }],
-        generationConfig: {
-          temperature: 0.7,
-          topK: 40,
-          topP: 0.95,
-          maxOutputTokens: 2048,
-          responseMimeType: jsonSchema ? "application/json" : "text/plain"
-        }
+      generationConfig: {
+  temperature: 0.7,
+  topK: 40,
+  topP: 0.95,
+  maxOutputTokens: 8192,  // Changed from 2048
+  responseMimeType: jsonSchema ? "application/json" : "text/plain"
+}
       };
 
       console.log('📤 Sending to Gemini API:', prompt.substring(0, 100) + '...');
