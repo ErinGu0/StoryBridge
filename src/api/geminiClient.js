@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { imageStorage } from './imageStorage';
 
-const GEMINI_API_KEY = 'AIzaSyAzJuJOcXb_wFiS-1ET9SUlva0Rptz1lWo';
+const GEMINI_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 export const geminiClient = {
